@@ -2,6 +2,8 @@
 
 This is a skeleton of a terraform provider hastily thrown together to demonstrate a problem which cropped up in Terraform 1.5.0 but which did not appear in 1.4.6.
 
+This issue is being tracked as hashicorp/terraform [#33371](https://github.com/hashicorp/terraform/issues/33371).
+
 Running `terraform plan` in the `demo/` directory with the new version of Terraform produces the following error:
 
 ```text
